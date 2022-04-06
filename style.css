@@ -1,0 +1,38 @@
+body {
+  background-color: #d7f1d5;
+}
+
+.header {
+  height: 100px;
+}
+
+.container {
+  display: flexbox;
+  background-color: #d7f1d5;
+}
+
+.menu {
+  display: inline-flex;
+  list-style: none;
+  outline: none;
+  justify-content: right;
+  flex: 1;
+  background-color: #d7f1d5;
+}
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  padding-left: 160px;
+  padding-right: 160px;
+  outline: none;
+}
+li a:hover {
+  background-color: rgb(241, 241, 245);
+}
+.content {
+  display: flex;
+  flex: 1;
+}
