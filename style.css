@@ -36,3 +36,14 @@ li a:hover {
   display: flex;
   flex: 1;
 }
+
+h1 {
+  text-align: center;
+}
+p {
+  padding-left: 20px;
+}
+
+h2 {
+  padding-left: 20px;
+}
